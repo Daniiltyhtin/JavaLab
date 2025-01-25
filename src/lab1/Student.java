@@ -1,3 +1,5 @@
+package lab1;
+
 import java.util.HashMap;
 
 import lombok.Data;
@@ -18,7 +20,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "lab1.Student{" +
                 "name='" + name + '\'' +
                 ", nameGroup='" + nameGroup + '\'' +
                 ", numberCourse=" + course +
